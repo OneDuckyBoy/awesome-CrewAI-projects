@@ -14,7 +14,6 @@ def run():
     "what ways did people make their tea before and more that you will think of"
     main_topic = "History of Tea"
     inputs = {
-        'game' :  "hangman hame with inputs from the console",
         "topic":topic,
         "main_topic":main_topic
     }
