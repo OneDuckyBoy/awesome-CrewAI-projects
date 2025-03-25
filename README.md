@@ -18,7 +18,7 @@ I will put Cool Crew AI projects that I find, or make here : )
 - 🔥 Explore apps that combine LLMs from OpenAI, Anthropic, Gemini, and open-source alternatives with RAG and AI Agents.
 
 ## ❓ What are my next projects?
-- ✅ Test crew, that will make amazing tests on whatever topic you give it
+✅ Test crew, that will make amazing tests on whatever topic you give it
 - [ ] Health and Fittness planner agent
 - [ ] Movie Recommendation Agent
       
