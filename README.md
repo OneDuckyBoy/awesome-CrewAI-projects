@@ -1,11 +1,7 @@
 # 🌟 Awesome Crew AI Projects/ Apps
 A curated collection of awesome Crew AI projects/apps built with RAG and AI agents. This repository will feature Crew AI apps that use models from OpenAI, Anthropic, Google, and open-source models like DeepSeek, Qwen or Llama that you can run locally on your computer : D
 
-## 🤔 Why Awesome Crew AI Apps?
-
-- 💡 Discover practical and creative ways LLMs can be applied across different domains, from code repositories to email inboxes and more.
-- 🔥 Explore apps that combine LLMs from OpenAI, Anthropic, Gemini, and open-source alternatives with RAG and AI Agents.
-- 🎓 Learn from well-documented projects and contribute to the growing open-source ecosystem of Crew AI-powered applications.
+Learn from well-documented projects and contribute to the growing open-source ecosystem of Crew AI-powered applications.
   
 ## 📂 Featured Crew AI Projects
 I will put Cool Crew AI projects that I find, or make here : )
@@ -16,6 +12,11 @@ I will put Cool Crew AI projects that I find, or make here : )
 - [📰Newsletter Generator with GUI](https://github.com/alejandro-ao/exa-crewai)
 - [Retail Advisor](https://github.com/IBM/ibmdotcom-tutorials/tree/main/crew-ai-projects)
 
+## 🤔 Why Awesome Crew AI Apps?
+
+- 💡 Discover practical and creative ways LLMs can be applied across different domains, from code repositories to email inboxes and more.
+- 🔥 Explore apps that combine LLMs from OpenAI, Anthropic, Gemini, and open-source alternatives with RAG and AI Agents.
+- 🎓 
 ## 🚀 Getting Started
 
 1. **Click the link to the App you are interested in** 
