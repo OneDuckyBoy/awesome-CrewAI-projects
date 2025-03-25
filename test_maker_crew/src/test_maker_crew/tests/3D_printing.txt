@@ -1,0 +1,112 @@
+**3D Printing Test**
+
+**Instructions:** Choose the correct answer for each question by circling the letter corresponding to your choice.
+
+1. What is the most common type of filament used in FDM (Fused Deposition Modeling) 3D printing?  
+   a) PLA  
+   b) PETG  
+   c) ABS  
+   d) Nylon  
+
+2. Which of the following filaments is known for its durability and impact resistance?  
+   a) PLA  
+   b) TPU  
+   c) HIPS  
+   d) Nylon  
+
+3. What is the primary purpose of slicer software in 3D printing?  
+   a) To create 3D models  
+   b) To convert 3D models into G-code  
+   c) To paint 3D printed objects  
+   d) To measure printing temperature  
+
+4. Which software is commonly used for 3D modeling in engineering and architectural design?  
+   a) Tinkercad  
+   b) Fusion 360  
+   c) Cura  
+   d) Blender  
+
+5. Which of the following materials is often used for flexible 3D printing?  
+   a) PLA  
+   b) PETG  
+   c) TPU  
+   d) ASA  
+
+6. Tinkercad is best suited for which of the following users?  
+   a) Professional engineers  
+   b) Beginners and hobbyists  
+   c) Advanced animators  
+   d) Industrial designers  
+
+7. What does the term 'layer height' refer to in 3D printing?  
+   a) The speed of the printer  
+   b) The thickness of each layer of material  
+   c) The temperature of the filament  
+   d) The height of the 3D model  
+
+8. Which 3D printing technology uses a laser to fuse powdered material together?  
+   a) FDM  
+   b) SLA  
+   c) SLS  
+   d) DLP  
+
+9. Which of the following filaments is known for its biodegradability?  
+   a) ABS  
+   b) PLA  
+   c) Nylon  
+   d) PETG  
+
+10. What is the role of supports in 3D printing?  
+    a) To help in the cooling of the print  
+    b) To provide additional strength  
+    c) To support overhangs and bridges during printing  
+    d) To enhance the color of the print  
+
+11. Which of the following is a type of 3D printer that uses filament extrusion?  
+    a) SLA  
+    b) FDM  
+    c) SLS  
+    d) DLP  
+
+12. In which of the following industries can 3D printing be commonly applied?  
+    a) Healthcare  
+    b) Aerospace  
+    c) Automotive  
+    d) All of the above  
+
+13. What is commonly required to prepare a 3D model for printing using slicing software?  
+    a) Altering the color of the model  
+    b) Adjusting print speed and layer height  
+    c) Converting it to a PDF format  
+    d) None of the above  
+
+14. Which of the following safety measures is essential when operating a 3D printer?  
+    a) Ensuring proper ventilation  
+    b) Wearing ear protection  
+    c) Avoiding the use of gloves  
+    d) Ignoring temperature settings  
+
+15. Which filament is typically recognized for having high flexibility and elastomeric properties?  
+    a) ABS  
+    b) PLA  
+    c) TPU  
+    d) Nylon  
+
+**Answer Key:**  
+1. a  
+2. b  
+3. b  
+4. b  
+5. c  
+6. b  
+7. b  
+8. c  
+9. b  
+10. c  
+11. b  
+12. d  
+13. b  
+14. a  
+15. c  
+
+This revised version addresses the necessary topics of 3D printing comprehensively and is formatted for ease of use during testing.
