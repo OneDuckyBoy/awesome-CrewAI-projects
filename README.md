@@ -16,7 +16,12 @@ I will put Cool Crew AI projects that I find, or make here : )
 
 - 💡 Discover practical and creative ways LLMs can be applied across different domains, from code repositories to email inboxes and more.
 - 🔥 Explore apps that combine LLMs from OpenAI, Anthropic, Gemini, and open-source alternatives with RAG and AI Agents.
-- 🎓 
+
+## ❓ What are my next projects?
+- [x] Test crew, that will make amazing tests on whatever topic you give it
+- [ ] Health and Fittness planner agent
+- [ ] Movie Recommendation Agent
+      
 ## 🚀 Getting Started
 
 1. **Click the link to the App you are interested in** 
