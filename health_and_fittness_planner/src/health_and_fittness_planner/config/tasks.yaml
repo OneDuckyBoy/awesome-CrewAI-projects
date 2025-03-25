@@ -1,0 +1,24 @@
+
+fittness_plan_task:
+  description: >
+    You will create a fittness plan for the person: {person_info}.
+    The plan will be detailed, and have short explanations for everything.
+    the food plan - what the person need to eat will be handled by other agent
+  expected_output: >
+    you will Write the fittness plan as best as you can and give it to the next agent
+
+meal_plan_task:
+  description: >
+    You will be given a fitness plan and information about a person: {person_info}
+    You will make the best meal plan for that person, by giving him the best recipes that you know 
+    and you will give him 3 options for each meal, so that he can chose what he wants to make
+    each meal will have ingreadients needed, recipe, and overall description of the meal and it's nutrition value.
+  expected_output: >
+    Your final anwser will be the fittnes plan given from before and the best meal plan you have ever made below the fittness plan
+
+final_check_plans_task:
+  description: >
+    You will recieve a fittness and meal plans for the person: {person_info}
+  expected_output: >
+   Your final answer will be the plans checked for things that can be inproved and them being improved.
+    - so only the test, without the ``` before and after the test please
