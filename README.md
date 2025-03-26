@@ -20,6 +20,7 @@ I will put Cool Crew AI projects that I find, or make here : )
 ## ❓ What are my next projects?
 ✅ Test crew, that will make amazing tests on whatever topic you give it
 ✅ Health and Fittness planner agent
+- [ ] Marketing Crew -  it is still work in progress and now I am doing it 
 - [ ] Movie Recommendation Agent
       
 ## 🚀 Getting Started
