@@ -1,4 +1,4 @@
-# AI Crew for Game Building
+# AI Crew for making posts for most popular social medias and email newsletters/marketing
 ## Introduction
 This project demonstrates the use of the CrewAI framework to automate the creation tests on different topics. CrewAI orchestrates autonomous AI agents, enabling them to collaborate and execute complex tasks efficiently.
 
@@ -18,12 +18,12 @@ It uses GPT-4o by default so you should have access to that to run it.
 
 ***Disclaimer:** This will use gpt-4o unless you change it to use a different model, and by doing so it may incur in different costs.*
 
-- **Configure Environment**: Copy `.env.example` and set up the environment variables for [OpenAI](https://platform.openai.com/api-keys).
+- **Configure Environment**: Copy `.env.example` and set up the environment variables for [OpenAI](https://platform.openai.com/api-keys) and for [Serper](https://serper.dev/).
 - **Install Dependencies**: Run `poetry lock && poetry install`.
 - **Customize**: Modify `src/marketing_posts_crew/main.py` to add custom inputs for your agents and tasks.
 - **Customize Further**: Check `src/marketing_posts_crew/config/agents.yaml` to update your agents and `src/marketing_posts_crew/config/tasks.yaml` to update your tasks.
 - **Execute the Script**:
-- Enter your desired topic and a title for the file it will be stored(main_topic)
+- Replace 'marketing_information.md' in the config folder with one that is for your company/person
 - Run `poetry run marketing_posts_crew` 
 
 ## Details & Explanation

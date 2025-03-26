@@ -1,75 +1,120 @@
 from typing import List
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
-from crewai_tools import SerperDevTool,MDXSearchTool,FileReadTool, FileWriteTool
+from crewai_tools import SerperDevTool,MDXSearchTool,FileReadTool,DallETool
 import os
 from dotenv import load_dotenv
 load_dotenv()
 
 os.environ["SERPER_API_KEY"] =os.getenv("SERPER_API_KEY")
-search_tool = SerperDevTool()
-
-read_information = FileReadTool(file_path='./config/marketing_information.md')
-semantic_search_information = MDXSearchTool(mdx='.config/marketing_information.md')
 @CrewBase
 class MarketingPostsCrew:
     """Marketing posts crew"""
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
+    
+    
+    @agent
+    def web_research_agent(self) -> Agent:
+        search_tool = SerperDevTool()
+
+        return Agent(
+            config=self.agents_config['web_research_agent'],
+            allow_delegation=False,
+            verbose=True,
+            tools=[search_tool],
+            output="posts/post trending and email marketing and newsletters analys.md"
+        )
+    
+    @task
+    def web_research_task(self) -> Task:
+        search_tool = SerperDevTool()
+
+        return Task(
+            config=self.tasks_config['web_research_task'],
+            agent=self.web_research_agent(),
+            tools=[search_tool],
+            output_file="posts/post trending and email marketing and newsletters analys.md"
+        )
 
     @agent
-    def fittness_instructor(self) -> Agent:
+    def company_info_analyzer_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config['fittness_instructor'],
+            config=self.agents_config['company_info_analyzer_agent'],
+            allow_delegation=False,
+            verbose=True,
+            tools=[
+                FileReadTool(file_path='./config/marketing_information.md'),
+                MDXSearchTool(mdx='./config/marketing_information.md')
+            ]
+        )
+    
+    @task
+    def company_info_analys_task(self)-> Task:
+        return Task(
+            config=self.tasks_config['company_info_analys_task'],
+            agent=self.company_info_analyzer_agent(),
+            tools=[
+                FileReadTool(file_path='./config/marketing_information.md'),
+                MDXSearchTool(mdx='./config/marketing_information.md')
+            ],
+        )
+    
+    @task
+    def read_and_get_all_posts_task(self) -> Task:
+        
+        def read_posts_recursively():
+            all_posts = ""
+            for root, _, files in os.walk("./posts"):
+                for file in files:
+                    file_path = os.path.join(root, file)
+                    
+                    tool = FileReadTool(file_path=file_path)
+                    all_posts += tool.run() + "\n"
+            return all_posts
+
+        return Task(
+            config=self.tasks_config['company_info_analys_task'],
+            agent=self.company_info_analyzer_agent(),
+            custom_function=read_posts_recursively
+        )
+
+    @agent
+    def instagram_trending_post_generator_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['instagram_trending_post_generator_agent'],
             allow_delegation=False,
             verbose=True
         )
+    @task
+    def instagram_trending_post_generator_task(self) -> Task:
+        return Task(
+            config=self.tasks_config['instagram_trending_post_generator_task'],
+            agent=self.instagram_trending_post_generator_agent(),
+            context=[self.web_research_task(), self.company_info_analys_task(), self.read_and_get_all_posts_task()],
+            output_file="posts/instagram_post.md"
+        )
     
     @agent
-    def fittness_meal_planner(self) -> Agent:
+    def instagram_dall_e_prompt_agent(self) -> Task:
         return Agent(
-            config=self.agents_config['fittness_meal_planner'],
+            config=self.agents_config['instagram_dall_e_prompt_agent'],
             allow_delegation=False,
-            verbose=True
+            verbose=True,
+            tools=[DallETool()]
         )
-    
-    @agent
-    def fittness_and_meal_plan_checker(self) -> Agent:
-        return Agent(
-            config=self.agents_config['fittness_and_meal_plan_checker'],
-            allow_delegation=True,
-            verbose=True
-        )
-    
-
     @task
-    def fittness_plan_task(self) -> Task:
+    def instagram_dall_e_promt_task(self) -> Task:
         return Task(
-            config=self.tasks_config['fittness_plan_task'],
-            agent=self.fittness_instructor()
-        )
-
-    @task
-    def meal_plan_task(self) -> Task:
-        return Task(
-            config=self.tasks_config['meal_plan_task'],
-            agent=self.fittness_meal_planner(),
-            #### output_json=ResearchRoleRequirements
-        )
-    # self.crew.register_tool("file_writer", FileWriterTool)
-    @task
-    def final_check_plans_task(self) -> Task:
-        task = Task(
-            config=self.tasks_config['final_check_plans_task'],
-            agent=self.fittness_and_meal_plan_checker(),
+            config=self.tasks_config['dall_e_promt_task'],
+            agent=self.instagram_dall_e_prompt_agent(),
+            context=[self.instagram_trending_post_generator_task()],
+            output_file="posts/Instagram post picture.txt"
+           
         )
     
-
-        return task
-
     @crew
     def crew(self) -> Crew:
-        """Creates the GameBuilderCrew"""
         return Crew(
             agents=self.agents,  # Automatically created by the @agent decorator
             tasks=self.tasks,  # Automatically created by the @task decorator
