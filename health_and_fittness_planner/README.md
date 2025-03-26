@@ -1,6 +1,6 @@
-# AI Crew for Game Building
+# AI Crew for Health and fittness planning
 ## Introduction
-This project demonstrates the use of the CrewAI framework to automate the creation tests on different topics. CrewAI orchestrates autonomous AI agents, enabling them to collaborate and execute complex tasks efficiently.
+This project demonstrates the use of the CrewAI framework to automate the creation of your next fittness and dietary plan. CrewAI orchestrates autonomous AI agents, enabling them to collaborate and execute complex tasks efficiently.
 
 
 - [CrewAI Framework](#crewai-framework)
@@ -10,7 +10,7 @@ This project demonstrates the use of the CrewAI framework to automate the creati
 - [License](#license)
 
 ## CrewAI Framework
-CrewAI is designed to facilitate the collaboration of role-playing AI agents. In this example, The agents work together to build a Python-based game by simulating a collaborative software development process. Each agent has a distinct role, from writing the code to reviewing it for errors and ensuring it meets high-quality standards before final approval.
+CrewAI is designed to facilitate the collaboration of role-playing AI agents. In this example, The agents work together to build you the best health plan by simulating a collaborative process. Each agent has a distinct role, from writing the fittness plans to reviewing it for errors and ensuring it meets high-quality standards before final approval.
 
 
 ## Running the Script
