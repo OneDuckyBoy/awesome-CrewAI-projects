@@ -25,6 +25,8 @@ I will put Cool Crew AI projects that I find, or make here : )
 ✅ Marketing Crew -  makes posts for all major social medias - [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [x.com](https://x.com/) and [Threads](https://www.threads.net/) and email marketing and email newsletters for given company or person
 
 ✅  Movie and TV Series Recommendation Agent
+
+- [ ] Teaching crew - give it a subject and it will give you the best guide you have seen( that is made from AI ¯\\\_(ツ)_/¯) 
       
 ## 🚀 Getting Started
 
