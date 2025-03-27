@@ -26,7 +26,9 @@ I will put Cool Crew AI projects that I find, or make here : )
 
 ✅  Movie and TV Series Recommendation Agent
 
-- [ ] Teaching crew - give it a subject and it will give you the best guide you have seen( that is made from AI ¯\\\_(ツ)_/¯) 
+✅ Teaching crew - give it a subject and it will give you the best guide you have seen( that is made from AI ¯\\\_(ツ)_/¯) 
+
+ - [ ] Other cool project
       
 ## 🚀 Getting Started
 
