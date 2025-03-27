@@ -23,7 +23,8 @@ I will put Cool Crew AI projects that I find, or make here : )
 ✅ Health and Fittness planner agent
 
 ✅ Marketing Crew -  makes posts for all major social medias - [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [x.com](https://x.com/) and [Threads](https://www.threads.net/) and email marketing and email newsletters for given company or person
-- [ ] Movie Recommendation Agent
+
+✅  Movie and TV Series Recommendation Agent
       
 ## 🚀 Getting Started
 

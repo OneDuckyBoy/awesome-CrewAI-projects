@@ -1,0 +1,24 @@
+
+write_test_task:
+  description: >
+    You will Analyse the user preferences and make a list of what he likes and dislikes, 
+    so that the other agents can recommend the user movies and TV shows that he will like 
+    user prefernces: {preference}
+  expected_output: >
+    you will Write the analys report as best as you can and give it to the next agent
+
+review_test_task:
+  description: >
+     Write movie and TV Series recommendation based on what you recieve from the writer
+  expected_output: >
+    Your final anwser will be the test corrected if it needed corrections
+
+final_check_test_task:
+  description: >
+    You will recieve movie and tv series recommendation and will fix any errors that are in there
+  expected_output: >
+    your final answer must be the finishd movie and tv series recommendation
+    also, don't say **End of recommendation** in the end of the recommendation please
+    - so only the recommendation, without the ``` before and after the recommendation please
+
+
