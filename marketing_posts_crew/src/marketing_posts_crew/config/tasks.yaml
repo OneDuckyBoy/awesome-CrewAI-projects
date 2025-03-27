@@ -48,3 +48,15 @@ threads_trending_post_generator_task:
     Generate an Threads post using company info, previus posts(if there are any) and trending strategies
   expected_output: >
     Threads post text with tags to be added to the post (don't use markdown language)
+
+email_newsletter_generator_task:
+  description: >
+     Write an email newsletter, using company info, previus posts(if there are any) and newsletter writing strategies (don't use markdown, or HTML, because it can't render it)
+  expected_output: >
+    Email newsletter (don't use markdown language, or HTML, because i can't render it)
+
+email_marketing_generator_task:
+  description: >
+     Write a marketing email, using company info, previus posts(if there are any) and newsletter writing strategies (don't use markdown, or HTML, because it can't render it)
+  expected_output: >
+    Marketing email (don't use markdown language, or HTML, because it can't render it)

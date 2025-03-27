@@ -301,7 +301,79 @@ class MarketingPostsCrew:
             output_file="posts/Threads/Threads post picture "+formatted_datetime+".txt"
            
         )
+    
+# email newsletter agents and tasks
+    @agent
+    def email_newsletter_generator_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['email_newsletter_generator_agent'],
+            allow_delegation=False,
+            verbose=True
+        )
+    @task
+    def email_newsletter_generator_task(self) -> Task:
 
+        source_folder = 'posts/Email newsletter'
+        destination_folder = 'posts/Email newsletter/old newsletters'
+
+        # Ensure the destination folder exists
+        os.makedirs(destination_folder, exist_ok=True)
+
+        # Loop through all files in the source folder
+        for filename in os.listdir(source_folder):
+            source_path = os.path.join(source_folder, filename)
+            destination_path = os.path.join(destination_folder, filename)
+
+            # Move the file
+            if os.path.isfile(source_path):  # Check if it's a file
+                shutil.move(source_path, destination_path)
+        
+        
+        current_datetime = datetime.now()
+        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        return Task(
+            config=self.tasks_config['email_newsletter_generator_task'],
+            agent=self.email_newsletter_generator_agent(),
+            context=[self.web_research_task(), self.company_info_analys_task(), self.read_and_get_all_posts_task()],
+            output_file="posts/Email newsletter/email_newsletter "+formatted_datetime+".txt"
+        )
+    
+# marketing email agents and tasks
+    @agent
+    def email_marketing_generator_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['email_marketing_generator_agent'],
+            allow_delegation=False,
+            verbose=True
+        )
+    @task
+    def email_marketing_generator_task(self) -> Task:
+
+        source_folder = 'posts/Email Marketing'
+        destination_folder = 'posts/Email Marketing/old email marketing'
+
+        # Ensure the destination folder exists
+        os.makedirs(destination_folder, exist_ok=True)
+
+        # Loop through all files in the source folder
+        for filename in os.listdir(source_folder):
+            source_path = os.path.join(source_folder, filename)
+            destination_path = os.path.join(destination_folder, filename)
+
+            # Move the file
+            if os.path.isfile(source_path):  # Check if it's a file
+                shutil.move(source_path, destination_path)
+        
+        
+        current_datetime = datetime.now()
+        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        return Task(
+            config=self.tasks_config['email_marketing_generator_task'],
+            agent=self.email_marketing_generator_agent(),
+            context=[self.web_research_task(), self.company_info_analys_task(), self.read_and_get_all_posts_task()],
+            output_file="posts/Email Marketing/email_marketing "+formatted_datetime+".txt"
+        )
+    
     
     @crew
     def crew(self) -> Crew:

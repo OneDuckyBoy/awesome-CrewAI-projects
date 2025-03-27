@@ -1,1 +1,34 @@
-https://oaidalleapiprodscus.blob.core.windows.net/private/org-Q7NR7IJyenuMawB0bqMS3qRW/user-SyyOB4VxlqRqw0heaCvtQdu1/img-7pIjidDA23pnOQLi0rV8KLTk.png?st=2025-03-26T23%3A09%3A41Z&se=2025-03-27T01%3A09%3A41Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-26T14%3A54%3A40Z&ske=2025-03-27T14%3A54%3A40Z&sks=b&skv=2024-08-04&sig=zNR1zqWOCLcn7UO7pt8CGiWEnIcbDI620AFAd5wq9KA%3D
+Subject: Elevate Your Style with Our New Hat Collection!
+
+Hello Stylish Every Day Family,
+
+Are you ready to upgrade your accessory game? At Stylish Every Day, we believe that every day deserves a touch of style, and that’s why we’re excited to introduce our brand-new collection of super stylish baseball hats!
+
+Whether you’re heading to school, hanging out with friends, or just enjoying a day out under the sun, our hats are the perfect finishing touch for any outfit. Made with high-quality, breathable fabrics, every baseball hat we sell ensures you stay comfortable and trendy no matter where the day takes you. And with a variety of colors and designs, there’s something for everyone—from bold graphics for the daring trendsetter to minimalist styles for the classic individual.
+
+**Why Choose Our Baseball Hats?**
+1. **Stylish Designs:** Stand out with unique patterns and styles, suitable for all tastes.
+2. **Comfy Fit:** Adjustable straps for the perfect fit—no matter your head size.
+3. **Eco-Friendly Packaging:** We're committed to our planet with recyclable materials.
+
+**Exclusive Offer Just for You!**  
+As a token of our appreciation for being a part of our Stylish Every Day community, we're offering **a special 15% discount on all new arrivals**! Use the code “NEWLOOK15” at checkout to claim your discount. Hurry, this offer is valid for a limited time only!
+
+**Engage with Us!**  
+We love seeing our hats out in the wild! Share your favorite looks with our hats using the hashtag **#MyStylishEveryDay** on social media for a chance to be featured on our pages. Your style could inspire others, and together we can build a vibrant community of trendsetters!
+
+**Featured Style Tip:**  
+For a casual look that pops, pair our navy blue hat with a white t-shirt and your favorite denim jacket. Whether it’s a day out or just relaxing with friends, you’ll look effortlessly stylish!
+
+Explore our latest collection now and discover your new favorite hat that you can wear every day to express your unique personality. Click [here] to shop!
+
+Thank you for being a part of Stylish Every Day. We can’t wait to see how you style your new hat!
+
+Stay Stylish,  
+The Stylish Every Day Team
+
+P.S. Don’t forget to follow us on Instagram and TikTok for the latest updates, styling tips, and exciting giveaways! Join the Stylish Every Day family today!
+
+---
+
+This marketing email combines effective strategies, engages the audience, and aligns with the company values. It clearly highlights the benefits of the product while motivating readers to take action, ultimately leading to increased sales and community engagement.
