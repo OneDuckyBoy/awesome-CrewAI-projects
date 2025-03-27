@@ -23,11 +23,28 @@ instagram_trending_post_generator_task:
   description: >
     Generate an Instagram post using company info, previus posts(if there are any) and trending strategies
   expected_output: >
-    Instagram post text with tags to be added to the post
+    Instagram post text with tags to be added to the post (don't use markdown language)
 
 dall_e_promt_task:
   description: >
-    Generate  an image that will best suit the Instagram post
+    Generate  an image that will best suit the post
   expected_output: >
     only Instagram image link and nothing else
 
+facebook_trending_post_generator_task:
+  description: >
+    Generate an facebook post using company info, previus posts(if there are any) and trending strategies
+  expected_output: >
+    facebook post text with tags to be added to the post (don't use markdown language)
+
+x_com_trending_post_generator_task:
+  description: >
+    Generate an X.com post using company info, previus posts(if there are any) and trending strategies
+  expected_output: >
+    X.com post text with tags to be added to the post (don't use markdown language)
+
+threads_trending_post_generator_task:
+  description: >
+    Generate an Threads post using company info, previus posts(if there are any) and trending strategies
+  expected_output: >
+    Threads post text with tags to be added to the post (don't use markdown language)

@@ -1,9 +1,11 @@
 from typing import List
-from crewai import Agent, Crew, Process, Task
-from crewai.project import CrewBase, agent, crew, task
-from crewai_tools import SerperDevTool,MDXSearchTool,FileReadTool,DallETool
+from crewai import Agent, Crew, Process, Task # type: ignore
+from crewai.project import CrewBase, agent, crew, task # type: ignore
+from crewai_tools import SerperDevTool,MDXSearchTool,FileReadTool,DallETool # type: ignore
+from datetime import datetime
+import shutil
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv # type: ignore
 load_dotenv()
 
 os.environ["SERPER_API_KEY"] =os.getenv("SERPER_API_KEY")
@@ -78,7 +80,7 @@ class MarketingPostsCrew:
             agent=self.company_info_analyzer_agent(),
             custom_function=read_posts_recursively
         )
-
+# instagram agents and tasks
     @agent
     def instagram_trending_post_generator_agent(self) -> Agent:
         return Agent(
@@ -88,11 +90,27 @@ class MarketingPostsCrew:
         )
     @task
     def instagram_trending_post_generator_task(self) -> Task:
+        source_folder = 'posts/Instagram'
+        destination_folder = 'posts/Instagram/old posts'
+
+        # Ensure the destination folder exists
+        os.makedirs(destination_folder, exist_ok=True)
+
+        # Loop through all files in the source folder
+        for filename in os.listdir(source_folder):
+            source_path = os.path.join(source_folder, filename)
+            destination_path = os.path.join(destination_folder, filename)
+
+            # Move the file
+            if os.path.isfile(source_path):  # Check if it's a file
+                shutil.move(source_path, destination_path)
+        current_datetime = datetime.now()
+        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['instagram_trending_post_generator_task'],
             agent=self.instagram_trending_post_generator_agent(),
             context=[self.web_research_task(), self.company_info_analys_task(), self.read_and_get_all_posts_task()],
-            output_file="posts/instagram_post.md"
+            output_file="posts/Instagram/Instagram_post "+formatted_datetime+".txt"
         )
     
     @agent
@@ -105,13 +123,185 @@ class MarketingPostsCrew:
         )
     @task
     def instagram_dall_e_promt_task(self) -> Task:
+        
+        current_datetime = datetime.now()
+        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['dall_e_promt_task'],
             agent=self.instagram_dall_e_prompt_agent(),
             context=[self.instagram_trending_post_generator_task()],
-            output_file="posts/Instagram post picture.txt"
+            output_file="posts/Instagram/Instagram post picture "+formatted_datetime+".txt"
            
         )
+# FaceBook agents and tasks
+    @agent
+    def facebook_trending_post_generator_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['facebook_trending_post_generator_agent'],
+            allow_delegation=False,
+            verbose=True
+        )
+    @task
+    def facebook_trending_post_generator_task(self) -> Task:
+        source_folder = 'posts/Facebook'
+        destination_folder = 'posts/Facebook/old posts'
+
+        # Ensure the destination folder exists
+        os.makedirs(destination_folder, exist_ok=True)
+
+        # Loop through all files in the source folder
+        for filename in os.listdir(source_folder):
+            source_path = os.path.join(source_folder, filename)
+            destination_path = os.path.join(destination_folder, filename)
+
+            # Move the file
+            if os.path.isfile(source_path):  # Check if it's a file
+                shutil.move(source_path, destination_path)
+        
+        
+        current_datetime = datetime.now()
+        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        return Task(
+            config=self.tasks_config['facebook_trending_post_generator_task'],
+            agent=self.facebook_trending_post_generator_agent(),
+            context=[self.web_research_task(), self.company_info_analys_task(), self.read_and_get_all_posts_task()],
+            output_file="posts/Facebook/Facebook_post "+formatted_datetime+".txt"
+        )
+    
+    @agent
+    def facebook_dall_e_prompt_agent(self) -> Task:
+        return Agent(
+            config=self.agents_config['facebook_dall_e_prompt_agent'],
+            allow_delegation=False,
+            verbose=True,
+            tools=[DallETool()]
+        )
+    @task
+    def facebook_dall_e_promt_task(self) -> Task:
+        
+        current_datetime = datetime.now()
+        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        return Task(
+            config=self.tasks_config['dall_e_promt_task'],
+            agent=self.facebook_dall_e_prompt_agent(),
+            context=[self.facebook_trending_post_generator_task()],
+            output_file="posts/Facebook/Facebook post picture "+formatted_datetime+".txt"
+           
+        )
+
+# X.com agents and tasks
+    @agent
+    def x_com_trending_post_generator_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['x_com_trending_post_generator_agent'],
+            allow_delegation=False,
+            verbose=True
+        )
+    @task
+    def x_com_trending_post_generator_task(self) -> Task:
+
+        source_folder = 'posts/X.com'
+        destination_folder = 'posts/X.com/old posts'
+
+        # Ensure the destination folder exists
+        os.makedirs(destination_folder, exist_ok=True)
+
+        # Loop through all files in the source folder
+        for filename in os.listdir(source_folder):
+            source_path = os.path.join(source_folder, filename)
+            destination_path = os.path.join(destination_folder, filename)
+
+            # Move the file
+            if os.path.isfile(source_path):  # Check if it's a file
+                shutil.move(source_path, destination_path)
+        
+        current_datetime = datetime.now()
+        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        return Task(
+            config=self.tasks_config['x_com_trending_post_generator_task'],
+            agent=self.x_com_trending_post_generator_agent(),
+            context=[self.web_research_task(), self.company_info_analys_task(), self.read_and_get_all_posts_task()],
+            output_file="posts/X.com/X.com_post "+formatted_datetime+".txt"
+        )
+    
+    @agent
+    def x_com_dall_e_prompt_agent(self) -> Task:
+        return Agent(
+            config=self.agents_config['x_com_dall_e_prompt_agent'],
+            allow_delegation=False,
+            verbose=True,
+            tools=[DallETool()]
+        )
+    @task
+    def x_com_dall_e_promt_task(self) -> Task:
+        
+        current_datetime = datetime.now()
+        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        return Task(
+            config=self.tasks_config['dall_e_promt_task'],
+            agent=self.x_com_dall_e_prompt_agent(),
+            context=[self.x_com_trending_post_generator_task()],
+            output_file="posts/X.com/X.com post picture "+formatted_datetime+".txt"
+           
+        )
+
+# Threads agents and tasks
+    @agent
+    def threads_trending_post_generator_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['threads_trending_post_generator_agent'],
+            allow_delegation=False,
+            verbose=True
+        )
+    @task
+    def threads_trending_post_generator_task(self) -> Task:
+
+        source_folder = 'posts/Threads'
+        destination_folder = 'posts/Threads/old posts'
+
+        # Ensure the destination folder exists
+        os.makedirs(destination_folder, exist_ok=True)
+
+        # Loop through all files in the source folder
+        for filename in os.listdir(source_folder):
+            source_path = os.path.join(source_folder, filename)
+            destination_path = os.path.join(destination_folder, filename)
+
+            # Move the file
+            if os.path.isfile(source_path):  # Check if it's a file
+                shutil.move(source_path, destination_path)
+        
+        
+        current_datetime = datetime.now()
+        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        return Task(
+            config=self.tasks_config['threads_trending_post_generator_task'],
+            agent=self.threads_trending_post_generator_agent(),
+            context=[self.web_research_task(), self.company_info_analys_task(), self.read_and_get_all_posts_task()],
+            output_file="posts/Threads/Threads_post "+formatted_datetime+".txt"
+        )
+    
+    @agent
+    def threads_dall_e_prompt_agent(self) -> Task:
+        return Agent(
+            config=self.agents_config['threads_dall_e_prompt_agent'],
+            allow_delegation=False,
+            verbose=True,
+            tools=[DallETool()]
+        )
+    @task
+    def threads_dall_e_promt_task(self) -> Task:
+        
+        current_datetime = datetime.now()
+        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        return Task(
+            config=self.tasks_config['dall_e_promt_task'],
+            agent=self.threads_dall_e_prompt_agent(),
+            context=[self.threads_trending_post_generator_task()],
+            output_file="posts/Threads/Threads post picture "+formatted_datetime+".txt"
+           
+        )
+
     
     @crew
     def crew(self) -> Crew:

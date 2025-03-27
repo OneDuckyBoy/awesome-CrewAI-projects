@@ -21,7 +21,7 @@ I will put Cool Crew AI projects that I find, or make here : )
 ✅ Test crew, that will make amazing tests on whatever topic you give it
 
 ✅ Health and Fittness planner agent
-- [ ] Marketing Crew -  it is partly done - for now it only makes instagram posts 
+- [ ] Marketing Crew -  it is partly done - for now it only makes posts for all major social medias - [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [x.com](https://x.com/) and [Threads](https://www.threads.net/) - to be done - to add email marketing and email newsletters
 - [ ] Movie Recommendation Agent
       
 ## 🚀 Getting Started
