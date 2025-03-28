@@ -13,10 +13,10 @@ I will put Cool Crew AI projects that I find, or make here : )
 - [Retail Advisor](https://github.com/IBM/ibmdotcom-tutorials/tree/main/crew-ai-projects)
 - [Article maker](https://github.com/IBM/ibmdotcom-tutorials/tree/main/journalist_crew)
 - [Test maker crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/test_maker_crew)
-- [🏋️Health and fittness planner](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/health_and_fittness_planner)
+- [🏋️Health and fittness planner crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/health_and_fittness_planner)
 - [🍿Movie and TV Series Recommendation crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/movie_recommendation_crew)
 - [lesson material prep crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/subject_teaching_crew)
-- [Article making crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/journalist_crew)
+- [Journalist Article making crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/journalist_crew)
 
 ## 🤔 Why Awesome Crew AI Apps?
 
