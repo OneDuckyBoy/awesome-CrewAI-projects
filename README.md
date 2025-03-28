@@ -10,12 +10,12 @@ I will put Cool Crew AI projects that I find, or make here : )
 - [🎮 Game Generator crew](https://github.com/crewAIInc/crewAI-examples/tree/main/game-builder-crew)
 - [💼Marketing Strategy crew](https://github.com/crewAIInc/crewAI-examples/tree/main/marketing_strategy)
 - [📰Newsletter Generator with GUI crew](https://github.com/alejandro-ao/exa-crewai)
-- [Retail Advisor crew](https://github.com/IBM/ibmdotcom-tutorials/tree/main/crew-ai-projects)
-- [Test maker crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/test_maker_crew)
+- [🛍️Retail Advisor crew](https://github.com/IBM/ibmdotcom-tutorials/tree/main/crew-ai-projects)
+- [📝Test maker crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/test_maker_crew)
 - [🏋️Health and fittness planner crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/health_and_fittness_planner)
 - [🍿Movie and TV Series Recommendation crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/movie_recommendation_crew)
-- [lesson material prep crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/subject_teaching_crew)
-- [Journalist Article making crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/journalist_crew)
+- [📚lesson material prep crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/subject_teaching_crew)
+- [📰Journalist Article making crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/journalist_crew)
 
 ## 🤔 Why Awesome Crew AI Apps?
 
