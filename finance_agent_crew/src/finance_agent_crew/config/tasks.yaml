@@ -1,0 +1,25 @@
+
+web_research_task:
+  description: >
+    Search the Internet for information about Financial Plan analys
+    Keep in mind that it is for a thorough Financial Plan analys. use the examples to see what information needs to be found and what criterias are watched
+  expected_output: >
+   Write a Detailed report on Financial Plan analys that has all the needed information, so the writer can write a report, similar to the examples i have given
+
+financial_plan_analys_report_writer_task:
+  description: >
+    Given the info from the examples and the current plan that is: {current_financial_plan}; fix the plan, so it will be good and realistic, so that the person can follow it
+  expected_output: >
+    fix the financial plan, so that it has realistic and normal values 
+    - don't touch the earnings, because, people can't change them that easily and 
+    make it so that it follows structure similar to the examples I gave you
+
+qa_report_task:
+  description: >
+    You will recieve a financial plan and need to see if it looks good, 
+    and if it doens't, you need to fix it. 
+    The financial plan need to be in a similar style like the examples 
+  expected_output: >
+    Fixed financial plan and everything as it is needed. Only the financial plan 
+    and no remarks from you about the financial plan and don't put the whole financial plan in a code spippet
+

@@ -51,7 +51,8 @@ I will put Cool Crew AI projects that I made here : )
 ✅ Investment agent crew - tell it what you want to invest in and the crew will help you make the right decision(as much as AI can of course)
 
 ✅ Legal Agent crew - give it a legal problem and it will give you a good educated lawyer opinion on the problem and next steps that you need to take - it is a cool project to look under the hood if you are interested
- - [ ] finance agent crew - about to start work on it : )
+
+✅ finance agent crew - give it your finacial plan and it will make it better, if there is something to make better
  - [ ] Coding picture problem solver - give it a picture with a coding problem and it will tell you what the problem is and how to solve it
  - [ ] Other cool projects
       
