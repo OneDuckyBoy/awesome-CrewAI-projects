@@ -49,5 +49,9 @@ I will put Cool Crew AI projects that I find, or make here : )
 
 Contributions are welcome! If you have any ideas, improvements, or new apps to add, please create a new [GitHub Issue](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/issues) or submit a pull request. 
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI&type=Date)](https://www.star-history.com/#OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI&Date)
+
 ### note
 some of the project ideas are taken from [here](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main)
