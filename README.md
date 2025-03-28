@@ -34,6 +34,8 @@ I will put Cool Crew AI projects that I find, or make here : )
 
 ✅ Teaching crew - give it a subject and it will give you the best guide you have seen( that is made from AI ¯\\\_(ツ)_/¯) 
 
+✅ Journalist crew - give it a topic and it will make you the best article it can ;)
+
  - [ ] Other cool project
       
 ## 🚀 Getting Started
