@@ -49,7 +49,7 @@ I will put Cool Crew AI projects that I made here : )
 ✅ Competitor analys crew  - WIP - it will analyse your competitors and give you a report
 
 ✅ Investment agent crew - tell it what you want to invest in and the crew will help you make the right decision(as much as AI can of course)
- - [ ] Legal Agent crew - give it a legal problem and it will give you a layer opinion on the problem
+ - [ ] Legal Agent crew - WIP - give it a legal problem and it will give you a good educated lawyer opinion on the problem and next steps that you need to take
  - [ ] finance agent crew
  - [ ] Coding pricture problem solver - give it a picture with a coding problem and it will tell you what the problem is
  - [ ] Other cool projects
