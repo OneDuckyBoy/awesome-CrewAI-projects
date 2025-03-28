@@ -47,21 +47,21 @@ class CompetitorAnalysCrew:
         )
 
     @agent
-    def article_writer_agent(self) -> Agent:
+    def competitor_report_writer_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config['article_writer_agent'],
+            config=self.agents_config['competitor_report_writer_agent'],
             allow_delegation=False,
             verbose=True,
             tools=[
-                FileReadTool(file_path='research/'+self.topic+'.md'),
+                FileReadTool(file_path='research/'+self.company_name+'.md'),
                 MDXSearchTool(mdx='research/'+self.company_name+' competitors.md')
             ]
         )
     @task
-    def article_writer_task(self)-> Task:
+    def competitor_report_writer_task(self)-> Task:
         return Task(
-            config=self.tasks_config['article_writer_task'],
-            agent=self.article_writer_agent(),
+            config=self.tasks_config['competitor_report_writer_task'],
+            agent=self.competitor_report_writer_agent(),
             allow_delegation=False,
             tools=[
                 FileReadTool(file_path='research/'+self.company_name+' competitors.md'),
@@ -69,19 +69,19 @@ class CompetitorAnalysCrew:
             ],
         )
     @agent
-    def qa_journalist_agent(self) -> Agent:
+    def qa_competitor_report_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config['qa_journalist_agent'],
+            config=self.agents_config['qa_competitor_report_agent'],
             allow_delegation=True,
             verbose=True,
             output_file = f"results/{self.company_name} analys.md"
 
         )
     @task
-    def qa_journal_task(self) -> Task:
+    def qa_competitor_report_task(self) -> Task:
         task = Task(
-            config=self.tasks_config['qa_journal_task'],
-            agent=self.qa_journalist_agent(),
+            config=self.tasks_config['qa_competitor_report_task'],
+            agent=self.qa_competitor_report_agent(),
             output_file = f"results/{self.company_name} analys.md"
 
         )

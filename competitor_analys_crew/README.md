@@ -23,7 +23,7 @@ It uses GPT-4o by default so you should have access to that to run it.
 - **Customize**: Modify `src/competitor_analys_crew/main.py` to add custom inputs for your agents and tasks.
 - **Customize Further**: Check `src/competitor_analys_crew/config/agents.yaml` to update your agents and `src/competitor_analys_crew/config/tasks.yaml` to update your tasks.
 - **Execute the Script**:
-- Enter your desired topic and a title for the file it will be stored(main_topic)
+- Enter your company name and it will make Competitor Report for your company
 - Run `poetry run competitor_analys_crew` 
 
 ## Details & Explanation
