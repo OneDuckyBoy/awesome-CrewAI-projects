@@ -11,14 +11,12 @@ I will put Cool Crew AI projects that I find, or make here : )
 - [💼Marketing Strategy](https://github.com/crewAIInc/crewAI-examples/tree/main/marketing_strategy)
 - [📰Newsletter Generator with GUI](https://github.com/alejandro-ao/exa-crewai)
 - [Retail Advisor](https://github.com/IBM/ibmdotcom-tutorials/tree/main/crew-ai-projects)
-<<<<<<< HEAD
 - [Article maker](https://github.com/IBM/ibmdotcom-tutorials/tree/main/journalist_crew)
-=======
 - [Test maker crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/test_maker_crew)
 - [🏋️Health and fittness planner](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/health_and_fittness_planner)
 - [🍿Movie and TV Series Recommendation crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/movie_recommendation_crew)
 - [lesson material prep crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/subject_teaching_crew)
->>>>>>> accdf2dacfa0a45d256ea6a0c7c93063518f4ef8
+- [Article making crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/journalist_crew)
 
 ## 🤔 Why Awesome Crew AI Apps?
 
