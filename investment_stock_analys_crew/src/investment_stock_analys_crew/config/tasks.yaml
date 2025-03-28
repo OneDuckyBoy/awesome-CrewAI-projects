@@ -1,0 +1,24 @@
+
+web_research_task:
+  description: >
+    Search the Internet for information about the stock {stock_1} and stock {stock_2}
+    Keep in mind that it is for a thorough Stock analys. use the examples to see what information needs to be found about the company stocks
+  expected_output: >
+   Write a Detailed report on the stocks that has all the needed information, so the writer can write a report, similar to the examples i have given
+
+stock_report_writer_task:
+  description: >
+    Write a comprehensive report about the stock {stock_1} and stock {stock_2} with the information given to you from the previus agents and files you recieved.
+    also, make the article in a similar fashion to the examples I gave you
+  expected_output: >
+    The best comprehensive report about the stock {stock_1} and stock {stock_2} that follows structure similar to the examples I gave you
+
+qa_stock_report_task:
+  description: >
+    You will recieve a comprehensive report about the stock {stock_1} and stock {stock_2}. 
+    You will review the Report and fix things if you find something wrong, or if it isn't
+    easy to understand and thorough. The Report need to be in a similar style like the examples 
+  expected_output: >
+    Fixed Report and everything as it is needed. Only the Report 
+    and no remarks from you about the Report and don't put the whole Report in a code spippet
+

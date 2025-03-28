@@ -30,11 +30,13 @@ I will put Cool Crew AI projects that I made here : )
 - 🔥 Explore apps that combine LLMs from OpenAI, Anthropic, Gemini, and open-source alternatives with RAG and AI Agents.
 
 ## ❓ What are my next projects?
+
+✅ Marketing Crew - main project - makes posts for all major social medias - [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [x.com](https://x.com/) and [Threads](https://www.threads.net/) and email marketing and email newsletters for given company or person  
+
+
 ✅ Test crew, that will make amazing tests on whatever topic you give it
 
 ✅ Health and Fittness planner agent
-
-✅ Marketing Crew -  makes posts for all major social medias - [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [x.com](https://x.com/) and [Threads](https://www.threads.net/) and email marketing and email newsletters for given company or person
 
 ✅  Movie and TV Series Recommendation crew
 
