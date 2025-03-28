@@ -11,6 +11,7 @@ I will put Cool Crew AI projects that I find, or make here : )
 - [💼Marketing Strategy](https://github.com/crewAIInc/crewAI-examples/tree/main/marketing_strategy)
 - [📰Newsletter Generator with GUI](https://github.com/alejandro-ao/exa-crewai)
 - [Retail Advisor](https://github.com/IBM/ibmdotcom-tutorials/tree/main/crew-ai-projects)
+- [Article maker](https://github.com/IBM/ibmdotcom-tutorials/tree/main/journalist_crew)
 
 ## 🤔 Why Awesome Crew AI Apps?
 
