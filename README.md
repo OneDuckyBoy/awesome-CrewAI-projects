@@ -5,13 +5,20 @@ Learn from well-documented projects and contribute to the growing open-source ec
   
 ## 📂 Featured Crew AI Projects
 I will put Cool Crew AI projects that I find, or make here : )
-- [💼 Marketing Crew - Makes posts for All major Social medias](https://github.com/OneDuckyBoy/marketing-MAS-multi-agent-system)
+- [💼 Marketing Crew - Makes posts for All major Social medias](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/marketing_posts_crew)
 - [✈️ Automated Vacation Planner](https://github.com/techindicium/MultiAgent-CrewAI)
 - [🎮 Game Generator](https://github.com/crewAIInc/crewAI-examples/tree/main/game-builder-crew)
 - [💼Marketing Strategy](https://github.com/crewAIInc/crewAI-examples/tree/main/marketing_strategy)
 - [📰Newsletter Generator with GUI](https://github.com/alejandro-ao/exa-crewai)
 - [Retail Advisor](https://github.com/IBM/ibmdotcom-tutorials/tree/main/crew-ai-projects)
+<<<<<<< HEAD
 - [Article maker](https://github.com/IBM/ibmdotcom-tutorials/tree/main/journalist_crew)
+=======
+- [Test maker crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/test_maker_crew)
+- [🏋️Health and fittness planner](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/health_and_fittness_planner)
+- [🍿Movie and TV Series Recommendation crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/movie_recommendation_crew)
+- [lesson material prep crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/subject_teaching_crew)
+>>>>>>> accdf2dacfa0a45d256ea6a0c7c93063518f4ef8
 
 ## 🤔 Why Awesome Crew AI Apps?
 
@@ -25,7 +32,7 @@ I will put Cool Crew AI projects that I find, or make here : )
 
 ✅ Marketing Crew -  makes posts for all major social medias - [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [x.com](https://x.com/) and [Threads](https://www.threads.net/) and email marketing and email newsletters for given company or person
 
-✅  Movie and TV Series Recommendation Agent
+✅  Movie and TV Series Recommendation crew
 
 ✅ Teaching crew - give it a subject and it will give you the best guide you have seen( that is made from AI ¯\\\_(ツ)_/¯) 
 
