@@ -16,20 +16,20 @@ _A comprehensive repository featuring a curated collection of AI-powered project
   </a>
 </div>
 
-
+<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="repository banner.png">
-  <img src="./repository banner.png" alt="Crew AI Multi Agent Systems Banner" width="1000" height="300" />
+  <img src="./repository banner.png" alt="Crew AI Multi Agent Systems Banner"  height="300" />
 </picture>
-
+</div>
 ## Overview
 
 This repository is your go-to hub for innovative **Crew AI** projects—ranging from marketing automation and content creation to health planning and legal advice. Whether you’re looking to deploy **AI agents**, explore **Multi Agent Systems**, or integrate advanced **machine learning** techniques into your projects, you’ll find a diverse selection of solutions here. Our projects leverage state-of-the-art AI, RAG (Retrieval-Augmented Generation), and robust data-driven strategies to deliver real-world applications across various domains.
 
   ## Example posts from the marketing posts crew:
   <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="marketing_posts_crew/4 posts.png">
-      <img src="marketing_posts_crew/4 posts.png" alt="4 example posts image" width="1000" />
+      <source media="(prefers-color-scheme: dark)" srcset="marketing_posts_crew/4 posts news.png">
+      <img src="marketing_posts_crew/4 posts new.png" alt="4 example posts image" width="1000" />
     </picture>
 
 ## How to Use These Projects
@@ -130,11 +130,6 @@ Explore other fascinating projects that push the boundaries of AI and automation
 
 Your contributions help drive the evolution of AI applications. Whether it’s new features, bug fixes, or innovative project ideas, please feel free to open an [Issue](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/issues) or submit a pull request.
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI&type=Date)](https://www.star-history.com/#OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI&Date)
-
----
 
 ### Note
 Some project ideas have been inspired by awesome repositories such as [awesome LLM apps](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main).
