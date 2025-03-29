@@ -1,7 +1,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="repository banner.png">
-  <img src="./repository banner.png" alt="Crew AI Multi Agent Systems Banner" width="1000" height="500" />
+  <img src="./repository banner.png" alt="Crew AI Multi Agent Systems Banner" width="1000" height="300" />
 </picture>
 
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
