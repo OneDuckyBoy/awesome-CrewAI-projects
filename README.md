@@ -1,6 +1,7 @@
 # 🌟 Awesome AI Agents HUB for CrewAI
 
-_A comprehensive repository featuring a curated collection of AI-powered projects and Multi Agent Systems (MAS) built with the Crew AI framework._
+_A comprehensive repository featuring a curated collection of AI-powered projects, LLM apps, AI apps, and Multi Agent Systems (MAS) built with the Crew AI framework._
+
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
   <a href="https://github.com/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI">
     <img alt="star count badge" src="https://img.shields.io/github/stars/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI?style=social&label=Star&maxAge=2592000">
@@ -17,20 +18,15 @@ _A comprehensive repository featuring a curated collection of AI-powered project
 </div>
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="repository banner.png">
-  <img src="./repository banner.png" alt="Crew AI Multi Agent Systems Banner"  height="300" />
-</picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="repository banner.png">
+    <img src="./repository banner.png" alt="Crew AI Multi Agent Systems Banner" height="300" />
+  </picture>
 </div>
+
 ## Overview
 
-This repository is your go-to hub for innovative **Crew AI** projects—ranging from marketing automation and content creation to health planning and legal advice. Whether you’re looking to deploy **AI agents**, explore **Multi Agent Systems**, or integrate advanced **machine learning** techniques into your projects, you’ll find a diverse selection of solutions here. Our projects leverage state-of-the-art AI, RAG (Retrieval-Augmented Generation), and robust data-driven strategies to deliver real-world applications across various domains.
-
-  ## Example posts from the marketing posts crew:
-  <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="marketing_posts_crew/4 posts news.png">
-      <img src="marketing_posts_crew/4 posts new.png" alt="4 example posts image" width="1000" />
-    </picture>
+This repository is your go-to hub for innovative **CrewAI** projects—ranging from marketing automation and content creation to health planning and legal advice. Whether you’re looking to deploy **AI agents**, explore **Multi Agent Systems**, or integrate advanced **machine learning** techniques into your projects, you’ll find a diverse selection of solutions here. Our projects showcase some of the most effective **LLM apps**, **AI apps**, and **Multi agent apps** that leverage state-of-the-art AI, Retrieval-Augmented Generation (RAG), and robust data-driven strategies to deliver real-world applications across various domains.
 
 ## How to Use These Projects
 
@@ -40,12 +36,12 @@ This repository is your go-to hub for innovative **Crew AI** projects—ranging 
 ### Integration and Customization
 - **Building Blocks for Your Solutions:** Use components from our projects as modular building blocks to enhance your own applications. Customize and extend them to fit your unique requirements.
 
-## Featured Crew AI Multi Agent System (MAS) Projects
+## Featured CrewAI Multi Agent System (MAS) Projects
 
 Explore a range of specialized **AI agent systems** designed for practical applications:
 
 - [💼 **Marketing Crew** – Automated Social Media and Email Marketing](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/marketing_posts_crew)  
-  Leverage AI to create compelling posts for Facebook, Instagram, x.com, Threads, and more.
+  Leverage AI to create compelling posts for Facebook, Instagram, X.com, Threads, and more.
   
 - [📝 **Test Maker Crew** – Dynamic Test Generation](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/test_maker_crew)  
   Generate insightful and comprehensive tests on any topic.
@@ -71,7 +67,7 @@ Explore a range of specialized **AI agent systems** designed for practical appli
 - [💰 **Finance Agent Crew**](https://github.com/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI/tree/main/finance_agent_crew)  
   Optimize financial plans and discover new opportunities.
 
-## Additional Innovative Crew AI Projects
+## Additional Innovative CrewAI Projects
 
 Explore other fascinating projects that push the boundaries of AI and automation:
 
@@ -92,34 +88,35 @@ Explore other fascinating projects that push the boundaries of AI and automation
 
 ## Why Choose Our AI Multi Agent Systems?
 
-- **Innovative AI Solutions:** Experience the power of combining **LLMs**, **RAG**, and advanced **AI agents** across various real-world applications.
+- **Innovative AI Solutions:** Experience the power of combining **LLM apps**, **AI apps**, **Multi agent apps**, RAG, and advanced **AI agents** across various real-world applications.
 - **Practical Applications:** Discover creative uses for AI—from marketing and media to legal and financial advice.
 - **Customizable Projects:** Each system is designed to be modular, enabling seamless integration into existing workflows or new projects.
 
 ## What are my next projects?
 
-✅ Marketing Crew - main project - makes posts for all major social medias - [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [x.com](https://x.com/) and [Threads](https://www.threads.net/) and email marketing and email newsletters for given company or person  
+✅ Marketing Crew - main project - makes posts for all major social medias - [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [X.com](https://x.com/), and [Threads](https://www.threads.net/) and email marketing and email newsletters for a given company or person
 
 ✅ Test crew, that will make amazing tests on whatever topic you give it
 
-✅ Health and Fittness planner agent
+✅ Health and Fitness planner agent
 
-✅  Movie and TV Series Recommendation crew
+✅ Movie and TV Series Recommendation crew
 
-✅ Teaching crew - give it a subject and it will give you the best guide you have seen( that is made from AI ¯\\\_(ツ)_/¯) 
+✅ Teaching crew - give it a subject and it will give you the best guide you have seen (that is made from AI ¯\\_(ツ)_/¯)
 
-✅ Journalist crew - give it a topic and it will make you the best article it can ;)
+✅ Journalist crew - give it a topic and it will make you the best article it can
 
-✅ Competitor analys crew - it will analyse your competitors and give you a report
+✅ Competitor analysis crew - it will analyze your competitors and give you a report
 
-✅ Investment agent crew - tell it what you want to invest in and the crew will help you make the right decision(as much as AI can of course)
+✅ Investment agent crew - tell it what you want to invest in and the crew will help you make the right decision (as much as AI can of course)
 
-✅ Legal Agent crew - give it a legal problem and it will give you a good educated lawyer opinion on the problem and next steps that you need to take - it is a cool project to look under the hood if you are interested
+✅ Legal Agent crew - give it a legal problem and it will give you a well-informed lawyer opinion on the problem and next steps you need to take – a cool project to explore AI in legal tech
 
-✅ finance agent crew - give it your finacial plan and it will make it better, if there is something to make better
- - [ ] Coding picture problem solver - WIP- give it a picture with a coding problem and it will tell you what the problem is and how to solve it
- - [ ] Other cool projects
-      
+✅ Finance agent crew - give it your financial plan and it will enhance it, if there is room for improvement
+
+- [ ] Coding picture problem solver - **WIP**: Give it a picture with a coding problem and it will tell you what the problem is and how to solve it
+- [ ] Other cool projects
+
 ## Getting Started
 
 1. **Choose Your Project:** Click on the app you’re interested in from the list above.
@@ -129,7 +126,6 @@ Explore other fascinating projects that push the boundaries of AI and automation
 ## 🤝 Contributing
 
 Your contributions help drive the evolution of AI applications. Whether it’s new features, bug fixes, or innovative project ideas, please feel free to open an [Issue](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/issues) or submit a pull request.
-
 
 ### Note
 Some project ideas have been inspired by awesome repositories such as [awesome LLM apps](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main).
