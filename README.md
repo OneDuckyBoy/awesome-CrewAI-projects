@@ -1,9 +1,6 @@
+# 🌟 Awesome AI Agents HUB for CrewAI
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="repository banner.png">
-  <img src="./repository banner.png" alt="Crew AI Multi Agent Systems Banner" width="1000" height="300" />
-</picture>
-
+_A comprehensive repository featuring a curated collection of AI-powered projects and Multi Agent Systems (MAS) built with the Crew AI framework._
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
   <a href="https://github.com/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI">
     <img alt="star count badge" src="https://img.shields.io/github/stars/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI?style=social&label=Star&maxAge=2592000">
@@ -19,13 +16,21 @@
   </a>
 </div>
 
-# 🌟 Awesome AI Agents HUB for CrewAI
 
-_A comprehensive repository featuring a curated collection of AI-powered projects and Multi Agent Systems (MAS) built with the Crew AI framework._
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="repository banner.png">
+  <img src="./repository banner.png" alt="Crew AI Multi Agent Systems Banner" width="1000" height="300" />
+</picture>
 
 ## Overview
 
 This repository is your go-to hub for innovative **Crew AI** projects—ranging from marketing automation and content creation to health planning and legal advice. Whether you’re looking to deploy **AI agents**, explore **Multi Agent Systems**, or integrate advanced **machine learning** techniques into your projects, you’ll find a diverse selection of solutions here. Our projects leverage state-of-the-art AI, RAG (Retrieval-Augmented Generation), and robust data-driven strategies to deliver real-world applications across various domains.
+
+  ## Example posts from the marketing posts crew:
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="4 posts.png">
+      <img src="4 posts.png" alt="4 example posts image" width="1000" />
+    </picture>
 
 ## How to Use These Projects
 
