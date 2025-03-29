@@ -5,7 +5,7 @@ This project demonstrates the use of the CrewAI framework to automate the creati
   ## Example posts from the marketing posts crew:
   <picture>
       <source media="(prefers-color-scheme: dark)" srcset="4 posts.png">
-      <img src="4 posts.png" alt="4 example posts image" width="600" />
+      <img src="4 posts.png" alt="4 example posts image" width="1000" />
     </picture>
 
 - [CrewAI Framework](#crewai-framework)
