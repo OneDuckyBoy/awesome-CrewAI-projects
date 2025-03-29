@@ -1,0 +1,1 @@
+I am ready to provide the complete text from the image once it is available.

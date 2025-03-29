@@ -1,0 +1,43 @@
+
+get_text_from_image_task:
+  description: >
+    read information from the given image and give it to the next agent
+  expected_output: >
+   text from the given image
+
+fix_error_from_code_task:
+  description: >
+   fix the error from the given code
+  expected_output: >
+    fixed code
+
+# qa_teacher_task:
+#   description: >
+#     You will recieve a lesson about the subject {subject}. You will review the lesson and fix things if you find something wrong, or if it isn't
+#     easy to understand and thorough 
+#   expected_output: >
+#     fixed lesson and everything as it is needed. only the lesson and no remarks from you about the lesson and don't put the whole lesson in a code spippet
+
+# write_test_task:
+#   description: >
+#     You will Analyse the user preferences and make a list of what he likes and dislikes, 
+#     so that the other agents can recommend the user movies and TV shows that he will like 
+#     user prefernces: {preference}
+#   expected_output: >
+#     you will Write the analys report as best as you can and give it to the next agent
+
+# review_test_task:
+#   description: >
+#      Write movie and TV Series recommendation based on what you recieve from the writer
+#   expected_output: >
+#     Your final anwser will be the test corrected if it needed corrections
+
+# final_check_test_task:
+#   description: >
+#     You will recieve movie and tv series recommendation and will fix any errors that are in there
+#   expected_output: >
+#     your final answer must be the finishd movie and tv series recommendation
+#     also, don't say **End of recommendation** in the end of the recommendation please
+#     - so only the recommendation, without the ``` before and after the recommendation please
+
+
