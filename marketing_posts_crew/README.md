@@ -2,6 +2,11 @@
 ## Introduction
 This project demonstrates the use of the CrewAI framework to automate the creation tests on different topics. CrewAI orchestrates autonomous AI agents, enabling them to collaborate and execute complex tasks efficiently.
 
+  ## Example posts from the marketing posts crew:
+  <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="4 posts.png">
+      <img src="4 posts.png" alt="4 example posts image" width="600" />
+    </picture>
 
 - [CrewAI Framework](#crewai-framework)
 - [Running the script](#running-the-script)
