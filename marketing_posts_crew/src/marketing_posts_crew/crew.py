@@ -4,6 +4,7 @@ from crewai.project import CrewBase, agent, crew, task # type: ignore
 from crewai_tools import SerperDevTool,MDXSearchTool,FileReadTool,DallETool # type: ignore
 from datetime import datetime
 import shutil
+import requests # type: ignore
 import os
 from dotenv import load_dotenv # type: ignore
 load_dotenv()
@@ -14,8 +15,11 @@ class MarketingPostsCrew:
     """Marketing posts crew"""
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
+    def __init__(self, current_datetime):
+        self.current_datetime = current_datetime
+
     
-    
+    # current_datetime = datetime.now()
     @agent
     def web_research_agent(self) -> Agent:
         search_tool = SerperDevTool()
@@ -104,8 +108,8 @@ class MarketingPostsCrew:
             # Move the file
             if os.path.isfile(source_path):  # Check if it's a file
                 shutil.move(source_path, destination_path)
-        current_datetime = datetime.now()
-        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        # self.current_datetime = datetime.now()
+        formatted_datetime = self.current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['instagram_trending_post_generator_task'],
             agent=self.instagram_trending_post_generator_agent(),
@@ -124,8 +128,8 @@ class MarketingPostsCrew:
     @task
     def instagram_dall_e_promt_task(self) -> Task:
         
-        current_datetime = datetime.now()
-        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        # self.current_datetime = datetime.now()
+        formatted_datetime = self.current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['dall_e_promt_task'],
             agent=self.instagram_dall_e_prompt_agent(),
@@ -159,8 +163,8 @@ class MarketingPostsCrew:
                 shutil.move(source_path, destination_path)
         
         
-        current_datetime = datetime.now()
-        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        # self.current_datetime = datetime.now()
+        formatted_datetime = self.current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['facebook_trending_post_generator_task'],
             agent=self.facebook_trending_post_generator_agent(),
@@ -179,8 +183,8 @@ class MarketingPostsCrew:
     @task
     def facebook_dall_e_promt_task(self) -> Task:
         
-        current_datetime = datetime.now()
-        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        # self.current_datetime = datetime.now()
+        formatted_datetime = self.current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['dall_e_promt_task'],
             agent=self.facebook_dall_e_prompt_agent(),
@@ -215,8 +219,8 @@ class MarketingPostsCrew:
             if os.path.isfile(source_path):  # Check if it's a file
                 shutil.move(source_path, destination_path)
         
-        current_datetime = datetime.now()
-        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        # self.current_datetime = datetime.now()
+        formatted_datetime = self.current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['x_com_trending_post_generator_task'],
             agent=self.x_com_trending_post_generator_agent(),
@@ -235,8 +239,8 @@ class MarketingPostsCrew:
     @task
     def x_com_dall_e_promt_task(self) -> Task:
         
-        current_datetime = datetime.now()
-        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        # self.current_datetime = datetime.now()
+        formatted_datetime = self.current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['dall_e_promt_task'],
             agent=self.x_com_dall_e_prompt_agent(),
@@ -272,8 +276,8 @@ class MarketingPostsCrew:
                 shutil.move(source_path, destination_path)
         
         
-        current_datetime = datetime.now()
-        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        # self.current_datetime = datetime.now()
+        formatted_datetime = self.current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['threads_trending_post_generator_task'],
             agent=self.threads_trending_post_generator_agent(),
@@ -292,8 +296,8 @@ class MarketingPostsCrew:
     @task
     def threads_dall_e_promt_task(self) -> Task:
         
-        current_datetime = datetime.now()
-        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        # self.current_datetime = datetime.now()
+        formatted_datetime = self.current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['dall_e_promt_task'],
             agent=self.threads_dall_e_prompt_agent(),
@@ -329,8 +333,8 @@ class MarketingPostsCrew:
                 shutil.move(source_path, destination_path)
         
         
-        current_datetime = datetime.now()
-        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        # self.current_datetime = datetime.now()
+        formatted_datetime = self.current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['email_newsletter_generator_task'],
             agent=self.email_newsletter_generator_agent(),
@@ -365,8 +369,8 @@ class MarketingPostsCrew:
                 shutil.move(source_path, destination_path)
         
         
-        current_datetime = datetime.now()
-        formatted_datetime = current_datetime.strftime("%Y-%m-%d %H-%M-%S")
+        # self.current_datetime = datetime.now()
+        formatted_datetime = self.current_datetime.strftime("%Y-%m-%d %H-%M-%S")
         return Task(
             config=self.tasks_config['email_marketing_generator_task'],
             agent=self.email_marketing_generator_agent(),
