@@ -28,8 +28,8 @@ This repository is your go-to hub for innovative **Crew AI** projects—ranging 
 
   ## Example posts from the marketing posts crew:
   <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="4 posts.png">
-      <img src="4 posts.png" alt="4 example posts image" width="1000" />
+      <source media="(prefers-color-scheme: dark)" srcset="marketing_posts_crew/4 posts.png">
+      <img src="marketing_posts_crew/4 posts.png" alt="4 example posts image" width="1000" />
     </picture>
 
 ## How to Use These Projects
