@@ -15,6 +15,9 @@ I will put Cool Crew AI projects that I made here : )
 - [🍿Movie and TV Series Recommendation crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/movie_recommendation_crew)
 - [📚lesson material prep crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/subject_teaching_crew)
 - [📰Journalist Article making crew](https://github.com/OneDuckyBoy/awesome-CrewAI-projects/tree/main/journalist_crew)
+- [Competitor analys crew](https://github.com/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI/tree/main/competitor_analys_crew)
+- [investment stock analys](https://github.com/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI/tree/main/investment_stock_analys_crew)
+- [finance agent crew](https://github.com/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI/tree/main/finance_agent_crew)
 
 ## Other Cool Crew AI Multi Agent System projects that I have found : )
 - [✈️ Automated Vacation Planner crew](https://github.com/techindicium/MultiAgent-CrewAI)
@@ -43,8 +46,6 @@ I will put Cool Crew AI projects that I made here : )
 ✅ Teaching crew - give it a subject and it will give you the best guide you have seen( that is made from AI ¯\\\_(ツ)_/¯) 
 
 ✅ Journalist crew - give it a topic and it will make you the best article it can ;)
-
-✅ Competitor analys crew - it will analyse your competitors and give you a report
 
 ✅ Competitor analys crew - it will analyse your competitors and give you a report
 
