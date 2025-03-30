@@ -75,8 +75,8 @@ Explore a range of specialized **AI agent systems** designed for practical appli
   Optimize financial plans and discover new opportunities.
 
 ## [🚀13 more cool AI agent projects in the works Coming Soon!](#what-are-my-next-projects)
- ### Please give a star ⭐ to the project to support our work. 
- Don't forget to watch 👀 our project if you like it and to be informed as soon as something new has been added
+### Please give a star ⭐ to the project to support our work. 
+Don't forget to watch 👀 our project if you like it and to be informed as soon as something new has been added
 
 ## Additional Innovative CrewAI Projects
 
@@ -104,6 +104,8 @@ Explore other fascinating projects that push the boundaries of AI and automation
 - **Customizable Projects:** Each system is designed to be modular, enabling seamless integration into existing workflows or new projects.
 
 ## What are my next projects?
+### Please give a star ⭐ to the project to support our work. 
+Don't forget to watch 👀 our project if you like it and to be informed as soon as something new has been added
 
 | ⬜ Projects to be Done | ✅ Done Projects |
 |----------------------|-----------------|
