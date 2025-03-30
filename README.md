@@ -74,8 +74,8 @@ Explore a range of specialized **AI agent systems** designed for practical appli
 - [💰 **Finance Agent Crew**](https://github.com/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI/tree/main/finance_agent_crew)  
   Optimize financial plans and discover new opportunities.
 
-## [🚀13 more cool AI agent projects in the work Coming Soon!](#what-are-my-next-projects)
-  
+## [🚀13 more cool AI agent projects in the works Coming Soon!](#what-are-my-next-projects)
+### Please give a star ⭐ to the project to support our work 
 
 ## Additional Innovative CrewAI Projects
 
@@ -122,6 +122,7 @@ Explore other fascinating projects that push the boundaries of AI and automation
 |⬜ **Podcast Internet Search and Generate Agent Crew**| |
 |⬜ **Other Cool Projects** <br/> More ideas coming soon!  | |
 
+### Please give a star ⭐ to the project to support our work 
 
 ## Getting Started
 
