@@ -103,21 +103,21 @@ Explore other fascinating projects that push the boundaries of AI and automation
 
 | ⬜ Projects to be Done | ✅ Done Projects |
 |----------------------|-----------------|
-|⬜ **Coding Picture Problem Solver** - **WIP**: Give it a picture with a coding problem, and it will analyze the issue and suggest solutions. | ✅ **Marketing Crew** - Makes posts for all major social medias ([Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [X.com](https://x.com/), and [Threads](https://www.threads.net/)), plus email marketing/newsletters. |
-|⬜ **Data Analysis Agent crew** -  Give it your dataset and it will analyze it and tell you inportant information about it | ✅ **Test Crew** - Generates high-quality tests on any topic. |
-|⬜ **A Feynman-Enhanced Learning Agent crew **- it will help you study better, by making you explain the lesson that you need to learn and help you fill the gaps that you don't yet know| ✅ **Health and Fitness Planner Agent** - Helps with planning health and fitness routines. |
-|⬜ **Essay Grading Agent crew** - Bive it an essay and it will grade it based on relevance, grammar, structure, and depth of analysis| ✅ **Movie and TV Series Recommendation Crew** - Provides personalized recommendations. |
-|⬜ **Contract Analysis Crew** - Give it a contract, what the contract is for and it will analyze it and explain it to you| ✅ **Teaching Crew** - Give it a subject, and it will generate an AI-crafted guide. ¯\\_(ツ)_/¯ |
-|⬜ **GIF Animation Generator Agent** - Give it a prompt and it will generate a gif for you : )| ✅ **Journalist Crew** - Creates well-written articles on any topic. |
-|⬜ **text to speech poem generator crew** - give it a prompt for waht kind of poem you want and it will not only write the text, but also tell you the story| ✅ **Competitor Analysis Crew** - Analyzes competitors and provides a report. |
-|⬜ **Business Meme Generator** - give it your company name and some information about your company and it will generate personalized memes just for your company| ✅ **Investment Agent Crew** - Assists with investment decisions based on AI insights. |
-|⬜ **Internet Search and Summarize Agent Crew** -  Give it a web search you wanted to make and it will not only make it for you, bul also summarize the results and give you information that yuo need and more| ✅ **Legal Agent Crew** - Provides AI-generated legal opinions and recommended steps. |
-|⬜ **Music Compositor Agent** - It will generate music based on user propmt| ✅ **Finance Agent Crew** - Enhances financial plans by identifying areas for improvement. |
-|⬜ **Career Assistant Agent** - It will help you with your CV, give you Interview Questions, help you understand what more do you need to know for the job and peobably more| |
-|⬜ **Sales Call Analyzer Crew** - Analyze Sales Calls and gives report| |
-|⬜ **News TL;DR Crew** - Sumarize current news based on input| |
+|⬜ **Coding Picture Problem Solver** <br/> **WIP**: Give it a picture with a coding problem, and it will analyze the issue and suggest solutions. | ✅ **Marketing Crew** <br/> Makes posts for all major social medias ([Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [X.com](https://x.com/), and [Threads](https://www.threads.net/)), plus email marketing/newsletters. |
+|⬜ **Data Analysis Agent crew** <br/>  Give it your dataset and it will analyze it and tell you inportant information about it | ✅ **Test Crew** <br/> Generates high-quality tests on any topic. |
+|⬜ **A Feynman-Enhanced Learning Agent crew **- it will help you study better, by making you explain the lesson that you need to learn and help you fill the gaps that you don't yet know| ✅ **Health and Fitness Planner Agent** <br/> Helps with planning health and fitness routines. |
+|⬜ **Essay Grading Agent crew** <br/> Give it an essay and it will grade it based on relevance, grammar, structure, and depth of analysis| ✅ **Movie and TV Series Recommendation Crew** <br/> Provides personalized recommendations. |
+|⬜ **Legal Contract Analysis Crew** <br/> Give it a legal contract, what the contract is for and it will analyze it and explain it to you| ✅ **Teaching Crew** <br/> Give it a subject, and it will generate an AI-crafted guide. ¯\\_(ツ)_/¯ |
+|⬜ **GIF Animation Generator Agent** <br/> Give it a prompt and it will generate a gif for you : )| ✅ **Journalist Crew** <br/> Creates well-written articles on any topic. |
+|⬜ **text to speech poem generator crew** <br/> give it a prompt for waht kind of poem you want and it will not only write the text, but also tell you the story| ✅ **Competitor Analysis Crew** <br/> Analyzes competitors and provides a report. |
+|⬜ **Business Meme Generator** <br/> give it your company name and some information about your company and it will generate personalized memes just for your company| ✅ **Investment Agent Crew** <br/> Assists with investment decisions based on AI insights. |
+|⬜ **Internet Search and Summarize Agent Crew** <br/>  Give it a web search you wanted to make and it will not only make it for you, bul also summarize the results and give you information that yuo need and more| ✅ **Legal Agent Crew** <br/> Provides AI-generated legal opinions and recommended steps. |
+|⬜ **Music Compositor Agent** <br/> It will generate music based on user propmt| ✅ **Finance Agent Crew** <br/> Enhances financial plans by identifying areas for improvement. |
+|⬜ **Career Assistant Agent** <br/> It will help you with your CV, give you Interview Questions, help you understand what more do you need to know for the job and peobably more| |
+|⬜ **Sales Call Analyzer Crew** <br/> Analyze Sales Calls and gives report| |
+|⬜ **News TL;DR Crew** <br/> Sumarize current news based on input| |
 |⬜ **Podcast Internet Search and Generate Agent Crew**| |
-|⬜ **Other Cool Projects** - More ideas coming soon!  | |
+|⬜ **Other Cool Projects** <br/> More ideas coming soon!  | |
 
 
 ## Getting Started
