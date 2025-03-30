@@ -78,25 +78,6 @@ Explore a range of specialized **AI agent systems** designed for practical appli
 ### Please give a star ⭐ to the repository to support our work. 
 Don't forget to watch 👀 our repository if you like it and to be informed as soon as something new has been added
 
-## Additional Innovative CrewAI Projects
-
-Explore other fascinating projects that I have found and Like:
-
-- [✈️ **Automated Vacation Planner Crew**](https://github.com/techindicium/MultiAgent-CrewAI)  
-  Plan vacations with ease using intelligent AI recommendations.
-  
-- [🎮 **Game Generator Crew**](https://github.com/crewAIInc/crewAI-examples/tree/main/game-builder-crew)  
-  Create engaging games powered by AI creativity.
-  
-- [💼 **Marketing Strategy Crew**](https://github.com/crewAIInc/crewAI-examples/tree/main/marketing_strategy)  
-  Innovate your marketing strategies using AI insights.
-  
-- [🛍️ **Retail Advisor Crew**](https://github.com/IBM/ibmdotcom-tutorials/tree/main/crew-ai-projects)  
-  Enhance retail operations with data-driven AI advice.
-  
-- [📰 **Newsletter Generator with GUI Crew**](https://github.com/alejandro-ao/exa-crewai)  
-  Create compelling newsletters using an intuitive AI interface.
-
 ## Why Choose Our AI Multi Agent Systems?
 
 - **Innovative AI Solutions:** Experience the power of combining **LLM apps**, **AI apps**, **Multi agent apps**, RAG, and advanced **AI agents** across various real-world applications.
@@ -133,6 +114,27 @@ Don't forget to watch 👀 our repository if you like it and to be informed as s
 1. **Choose Your Project:** Click on the app you’re interested in from the list above.
 2. **Review the Setup Instructions:** Each project comes with a detailed `README.md` to guide you through installation and configuration.
 3. **Customize & Innovate:** Use these projects as a foundation to build and enhance your own AI-driven solutions.
+
+## Other Innovative CrewAI Projects that I like
+
+Explore other fascinating projects that I have found and Like:
+
+- [✈️ **Automated Vacation Planner Crew**](https://github.com/techindicium/MultiAgent-CrewAI)  
+  Plan vacations with ease using intelligent AI recommendations.
+  
+- [🎮 **Game Generator Crew**](https://github.com/crewAIInc/crewAI-examples/tree/main/game-builder-crew)  
+  Create engaging games powered by AI creativity.
+  
+- [💼 **Marketing Strategy Crew**](https://github.com/crewAIInc/crewAI-examples/tree/main/marketing_strategy)  
+  Innovate your marketing strategies using AI insights.
+  
+- [🛍️ **Retail Advisor Crew**](https://github.com/IBM/ibmdotcom-tutorials/tree/main/crew-ai-projects)  
+  Enhance retail operations with data-driven AI advice.
+  
+- [📰 **Newsletter Generator with GUI Crew**](https://github.com/alejandro-ao/exa-crewai)  
+  Create compelling newsletters using an intuitive AI interface.
+
+
 
 ## 🤝 Contributing
 
