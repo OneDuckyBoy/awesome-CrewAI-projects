@@ -27,7 +27,7 @@ _A comprehensive repository featuring a curated collection of AI-powered project
 ## Overview
 
 This repository is your go-to hub for innovative **CrewAI** projects—ranging from marketing automation and content creation to health planning and legal advice. Whether you’re looking to deploy **AI agents**, explore **Multi Agent Systems**, or integrate advanced **machine learning** techniques into your projects, you’ll find a diverse selection of solutions here. Our projects showcase some of the most effective **LLM apps**, **AI apps**, and **Multi agent apps** that leverage state-of-the-art AI, Retrieval-Augmented Generation (RAG), and robust data-driven strategies to deliver real-world applications across various domains.
-## [See my next projects](#what-are-my-next-projects)
+# [See my next projects](#what-are-my-next-projects)
 
 ## Example posts from the marketing posts crew:
    <picture>
