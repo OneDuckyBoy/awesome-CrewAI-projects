@@ -27,6 +27,7 @@ _A comprehensive repository featuring a curated collection of AI-powered project
 ## Overview
 
 This repository is your go-to hub for innovative **CrewAI** projects—ranging from marketing automation and content creation to health planning and legal advice. Whether you’re looking to deploy **AI agents**, explore **Multi Agent Systems**, or integrate advanced **machine learning** techniques into your projects, you’ll find a diverse selection of solutions here. Our projects showcase some of the most effective **LLM apps**, **AI apps**, and **Multi agent apps** that leverage state-of-the-art AI, Retrieval-Augmented Generation (RAG), and robust data-driven strategies to deliver real-world applications across various domains.
+## [See my next projects](#what-are-my-next-projects)
 
 ## Example posts from the marketing posts crew:
    <picture>
@@ -100,28 +101,19 @@ Explore other fascinating projects that push the boundaries of AI and automation
 
 ## What are my next projects?
 
-✅ Marketing Crew - main project - makes posts for all major social medias - [Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [X.com](https://x.com/), and [Threads](https://www.threads.net/) and email marketing and email newsletters for a given company or person
+| Projects to be Done ⬜ | ✅ Done Projects |
+|----------------------|-----------------|
+|⬜ **Coding Picture Problem Solver** - **WIP**: Give it a picture with a coding problem, and it will analyze the issue and suggest solutions. | ✅ **Marketing Crew** - Makes posts for all major social medias ([Facebook](https://www.facebook.com/), [Instagram](https://www.instagram.com/), [X.com](https://x.com/), and [Threads](https://www.threads.net/)), plus email marketing/newsletters. |
+|| ✅ **Test Crew** - Generates high-quality tests on any topic. |
+| | ✅ **Health and Fitness Planner Agent** - Helps with planning health and fitness routines. |
+| | ✅ **Movie and TV Series Recommendation Crew** - Provides personalized recommendations. |
+| | ✅ **Teaching Crew** - Give it a subject, and it will generate an AI-crafted guide. ¯\\_(ツ)_/¯ |
+| | ✅ **Journalist Crew** - Creates well-written articles on any topic. |
+| | ✅ **Competitor Analysis Crew** - Analyzes competitors and provides a report. |
+| | ✅ **Investment Agent Crew** - Assists with investment decisions based on AI insights. |
+| | ✅ **Legal Agent Crew** - Provides AI-generated legal opinions and recommended steps. |
+|⬜ **Other Cool Projects** - More ideas coming soon!  | ✅ **Finance Agent Crew** - Enhances financial plans by identifying areas for improvement. |
 
-✅ Test crew, that will make amazing tests on whatever topic you give it
-
-✅ Health and Fitness planner agent
-
-✅ Movie and TV Series Recommendation crew
-
-✅ Teaching crew - give it a subject and it will give you the best guide you have seen (that is made from AI ¯\\_(ツ)_/¯)
-
-✅ Journalist crew - give it a topic and it will make you the best article it can
-
-✅ Competitor analysis crew - it will analyze your competitors and give you a report
-
-✅ Investment agent crew - tell it what you want to invest in and the crew will help you make the right decision (as much as AI can of course)
-
-✅ Legal Agent crew - give it a legal problem and it will give you a well-informed lawyer opinion on the problem and next steps you need to take – a cool project to explore AI in legal tech
-
-✅ Finance agent crew - give it your financial plan and it will enhance it, if there is room for improvement
-
-- [ ] Coding picture problem solver - **WIP**: Give it a picture with a coding problem and it will tell you what the problem is and how to solve it
-- [ ] Other cool projects
 
 ## Getting Started
 
