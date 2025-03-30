@@ -75,8 +75,8 @@ Explore a range of specialized **AI agent systems** designed for practical appli
   Optimize financial plans and discover new opportunities.
 
 ## [🚀13 more cool AI agent projects in the works Coming Soon!](#what-are-my-next-projects)
-### Please give a star ⭐ to the project to support our work. 
-Don't forget to watch 👀 our project if you like it and to be informed as soon as something new has been added
+### Please give a star ⭐ to the repository to support our work. 
+Don't forget to watch 👀 our repository if you like it and to be informed as soon as something new has been added
 
 ## Additional Innovative CrewAI Projects
 
@@ -103,9 +103,9 @@ Explore other fascinating projects that push the boundaries of AI and automation
 - **Practical Applications:** Discover creative uses for AI—from marketing and media to legal and financial advice.
 - **Customizable Projects:** Each system is designed to be modular, enabling seamless integration into existing workflows or new projects.
 
-## What are my next projects?
-### Please give a star ⭐ to the project to support our work. 
-Don't forget to watch 👀 our project if you like it and to be informed as soon as something new has been added
+## What are my next AI agent projects?
+### Please give a star ⭐ to the repository to support our work. 
+Don't forget to watch 👀 our repository if you like it and to be informed as soon as something new has been added
 
 | ⬜ Projects to be Done | ✅ Done Projects |
 |----------------------|-----------------|
@@ -125,8 +125,8 @@ Don't forget to watch 👀 our project if you like it and to be informed as soon
 |⬜ **Podcast Internet Search and Generate Agent Crew**| |
 |⬜ **Other Cool Projects** <br/> More ideas coming soon!  | |
 
-### Please give a star ⭐ to the project to support our work.
-Don't forget to watch 👀 our project if you like it and to be informed as soon as something new has been added
+### Please give a star ⭐ to the repository to support our work.
+Don't forget to watch 👀 our repository if you like it and to be informed as soon as something new has been added
 
 ## Getting Started
 
