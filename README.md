@@ -80,7 +80,7 @@ Don't forget to watch 👀 our repository if you like it and to be informed as s
 
 ## Additional Innovative CrewAI Projects
 
-Explore other fascinating projects that push the boundaries of AI and automation:
+Explore other fascinating projects that I have found and Like:
 
 - [✈️ **Automated Vacation Planner Crew**](https://github.com/techindicium/MultiAgent-CrewAI)  
   Plan vacations with ease using intelligent AI recommendations.
