@@ -4,7 +4,7 @@ _A comprehensive repository featuring a curated collection of AI-powered project
 
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
   <a href="https://github.com/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI">
-    <img alt="star count badge" src="https://img.shields.io/github/stars/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI?style=social&label=Star&maxAge=2592000">
+    <img alt="star count badge" src="https://img.shields.io/github/stars/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI?style=social&label=Star">
   </a>
   <a href="https://github.com/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI/blob/main/LICENSE">
     <img alt="GitHub License" src="https://img.shields.io/github/license/OneDuckyBoy/Awesome-AI-Agents-HUB-for-CrewAI">
