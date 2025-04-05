@@ -115,7 +115,7 @@ Don't forget to watch 👀 our repository if you like it and to be informed as s
 2. **Review the Setup Instructions:** Each project comes with a detailed `README.md` to guide you through installation and configuration.
 3. **Customize & Innovate:** Use these projects as a foundation to build and enhance your own AI-driven solutions.
 
-## Other Innovative CrewAI Projects that I like
+## Other Innovative CrewAI Projects that I like 
 
 Explore other fascinating projects that I have found and Like:
 
