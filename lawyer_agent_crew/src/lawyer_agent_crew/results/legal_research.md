@@ -1,4 +1,4 @@
-```markdown
+
 # Legal Analysis Report on Unpaid Wages for Client in Westside Los Angeles
 
 ## Introduction
@@ -32,6 +32,4 @@ Given the specifics of the client's situation, he presents strong legal grounds 
 3. **Consider Filing a Wage Claim**: The client may file a wage claim with the California Division of Labor Standards Enforcement (DLSE) to seek resolution through administrative channels, which is a less formal pathway compared to litigation.
 
 In conclusion, the client has multiple avenues available to him to recoup his unpaid wages, given California's robust labor protections. Immediate action and documentation will assist in building a strong case.
-```
 
-This Markdown report is formatted to provide a clear and comprehensive overview, including relevant laws, case law, and actionable recommendations tailored to the client's circumstances regarding unpaid wages.
